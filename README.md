@@ -13,4 +13,6 @@ Análise dos gestos e rostos: As poses do usuário são interpretadas e mapeadas
 Envio de comandos ao drone: Após a interpretação dos movimentos, o drone recebe comandos via send_rc_control(), ajustando sua posição no espaço.
 
 Esse método não apenas aprimora a interação entre humanos e máquinas, mas também abre novas possibilidades para o controle de robôs em ambientes dinâmicos, como aeroportos e fábricas. Ao substituir controladores convencionais por gestos intuitivos, a comunicação torna-se mais eficiente e acessível, reduzindo barreiras tecnológicas e aprimorando a segurança nas operações aéreas e industriais.
+
+
 Link para o video do TEllo no youtube: https://youtu.be/TFsnT5g8JX4?si=1TKhHvfnrXGtRzSH

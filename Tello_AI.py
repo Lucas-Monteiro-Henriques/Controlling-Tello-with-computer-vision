@@ -92,7 +92,7 @@ def trackFace(info, w, h, p_x_error, p_y_error, p_z_error):
 
 
 def findFace(img):
-    faceCascade = cv2.CascadeClassifier("/home/sacul/telloo/Drone_follower/haarcascades/haarcascade_frontalface_default.xml")
+    faceCascade = cv2.CascadeClassifier("haarcascades/haarcascade_frontalface_default.xml")
     imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = faceCascade.detectMultiScale(imgGray, 1.2, 8)
 
